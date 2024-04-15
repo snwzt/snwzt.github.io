@@ -17,7 +17,7 @@ I do some programming in Go and I like doing system administration too. Sometime
 
         @media (max-width: 600px) {
             .smallsc {
-                bottom: 25%;
+                bottom: 10%;
                 left: 0%;
             }
         }
