@@ -25,10 +25,10 @@ I do some programming in Go and I like doing system administration too. Sometime
 
     <div class="smallsc">
         <a href="http://example.com" style="color: white;">Gmail</a><br>
+        <a href="http://example.com" style="color: white;">GitHub</a><br>
         <a href="http://example.com" style="color: white;">LinkedIn</a><br>
         <a href="http://example.com" style="color: white;">Twitter</a><br>
         <a href="http://example.com" style="color: white;">Instagram</a><br>
-        <a href="http://example.com" style="color: white;">GitHub</a><br>
     </div>
 </div>
 
