@@ -38,4 +38,4 @@ I do some programming in Go and I like doing system administration too. Sometime
 - [Food I love](./like-food.html)
 - [Multi-stage OCI builds](./multi-stage-oci.html)
 - [Basic Regex](./basic-regex.html)
-- [OSI Oversimplified](./osi-oversimplified.html)
+- [OSI Model Oversimplified](./osi-model-oversimplified.html)
