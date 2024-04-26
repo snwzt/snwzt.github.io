@@ -38,6 +38,8 @@ I do some programming in Go and I like doing system administration too. Sometime
 
 <div style="flex: 1;">
 
+<h2>Blogs</h2>
+
 <ul>
     <li><a href="./ptr-go.html">Pointers in Go</a></li>
     <li><a href="./like-food.html">Food I love</a></li>
