@@ -1,7 +1,7 @@
 <div style="display: flex;">
 
 <div style="flex: 1; margin-right: 20px;">
-I do some programming in Go and I like doing system administration too. Sometimes I get sad and binge eat my [favorite food](./like-food.html). Also, I [sketch](./sketches.html), usually panels from my favorite comics.
+I do some programming in Go and I like doing system administration too. Sometimes I get sad and binge eat my <a href="./like-food.html" style="color: white;">favorite food</a>. Also, I <a href="./sketches.html" style="color: white;">sketch</a>, usually panels from my favorite comics.<br>
 
 <div style="position: relative; display: inline-block;">
     <img src="./assets/images/my_stuff.png" alt="Alt Text" style="width: 100%;">
@@ -37,13 +37,15 @@ I do some programming in Go and I like doing system administration too. Sometime
 </div>
 
 <div style="flex: 1;">
-# Blogs
 
-- [Pointers in Go](./ptr-go.html)
-- [Food I love](./like-food.html)
-- [Multi-stage OCI builds](./multi-stage-oci.html)
-- [Basic Regex](./basic-regex.html)
-- [OSI Model Oversimplified](./osi-model-oversimplified.html)
+<ul>
+    <li><a href="./ptr-go.html">Pointers in Go</a></li>
+    <li><a href="./like-food.html">Food I love</a></li>
+    <li><a href="./multi-stage-oci.html">Multi-stage OCI builds</a></li>
+    <li><a href="./basic-regex.html">Basic Regex</a></li>
+    <li><a href="./osi-model-oversimplified.html">OSI Model Oversimplified</a></li>
+</ul>
+
 </div>
 
 </div>
