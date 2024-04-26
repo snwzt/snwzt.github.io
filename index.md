@@ -1,7 +1,7 @@
 <div style="display: flex;">
 
 <div style="flex: 1; margin-right: 20px;">
-I do some programming in Go and I like doing system administration too. Sometimes I get sad and binge eat my <a href="./like-food.html" style="color: white;">favorite food</a>. Also, I <a href="./sketches.html" style="color: white;">sketch</a>, usually panels from my favorite comics.<br>
+I do some programming in Go and I like doing system administration too. Sometimes I get sad and binge eat my <a href="./like-food.html">favorite food</a>. Also, I <a href="./sketches.html">sketch</a>, usually panels from my favorite comics.<br><br>
 
 <div style="position: relative; display: inline-block;">
     <img src="./assets/images/my_stuff.png" alt="Alt Text" style="width: 100%;">
@@ -15,7 +15,7 @@ I do some programming in Go and I like doing system administration too. Sometime
             padding: 0; 
             margin: 0; 
             background-color: rgba(0, 0, 0, 0.5); 
-            padding: 10px; /* Removed duplicate padding */
+            padding: 10px; 
         }
 
         @media (max-width: 600px) {
@@ -38,7 +38,7 @@ I do some programming in Go and I like doing system administration too. Sometime
 
 <div style="flex: 1;">
 
-<h2>Blogs</h2>
+<h1>Blogs</h1>
 
 <ul>
     <li><a href="./ptr-go.html">Pointers in Go</a></li>

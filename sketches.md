@@ -4,8 +4,7 @@
     .container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 20px;
-        padding: 20px;
+        gap: 5px;
     }
 
     .item {
@@ -17,7 +16,7 @@
         height: auto;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1000px) {
         .container {
             grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         }
