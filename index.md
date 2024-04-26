@@ -1,4 +1,7 @@
-I do some programming in Go and I like doing system administration too. Sometimes I get sad and binge eat my favorite food. Also, I sketch, usually panels from my favorite comics.
+<div style="display: flex;">
+
+<div style="flex: 1; margin-right: 20px;">
+I do some programming in Go and I like doing system administration too. Sometimes I get sad and binge eat my [favorite food](./like-food.html). Also, I [sketch](./sketches.html), usually panels from my favorite comics.
 
 <div style="position: relative; display: inline-block;">
     <img src="./assets/images/my_stuff.png" alt="Alt Text" style="width: 100%;">
@@ -24,14 +27,16 @@ I do some programming in Go and I like doing system administration too. Sometime
     </style>
 
     <div class="smallsc">
-        <a href="http://example.com" style="color: white;">Gmail</a><br>
-        <a href="http://example.com" style="color: white;">GitHub</a><br>
-        <a href="http://example.com" style="color: white;">LinkedIn</a><br>
-        <a href="http://example.com" style="color: white;">Twitter</a><br>
-        <a href="http://example.com" style="color: white;">Instagram</a><br>
+        <a href="mailto:mprasadme@gmail.com" style="color: white;">Gmail</a><br>
+        <a href="https://github.com/snwzt" style="color: white;">GitHub</a><br>
+        <a href="https://www.linkedin.com/in/mdehury" style="color: white;">LinkedIn</a><br>
+        <a href="https://twitter.com/sloflayer" style="color: white;">Twitter</a><br>
     </div>
 </div>
 
+</div>
+
+<div style="flex: 1;">
 # Blogs
 
 - [Pointers in Go](./ptr-go.html)
@@ -39,3 +44,6 @@ I do some programming in Go and I like doing system administration too. Sometime
 - [Multi-stage OCI builds](./multi-stage-oci.html)
 - [Basic Regex](./basic-regex.html)
 - [OSI Model Oversimplified](./osi-model-oversimplified.html)
+</div>
+
+</div>
