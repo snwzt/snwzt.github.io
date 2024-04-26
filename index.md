@@ -1,6 +1,6 @@
-<div class="container">
+<div class="index-container">
 
-<div class="sidebar">
+<div class="index-sidebar">
 I do some programming in Go and I like doing system administration too. Sometimes I get sad and binge eat my <a href="./like-food.html">favorite food</a>. Also, I <a href="./sketches.html">sketch</a>, usually panels from my favorite comics.<br><br>
 
 <div style="position: relative; display: inline-block;">
@@ -36,7 +36,7 @@ I do some programming in Go and I like doing system administration too. Sometime
 
 </div>
 
-<div class="main-content">
+<div class="index-main-content">
 
 <h1>Blogs</h1>
 
@@ -53,26 +53,26 @@ I do some programming in Go and I like doing system administration too. Sometime
 </div>
 
 <style>
-.container {
+.index-container {
     display: flex;
     flex-direction: row;
 }
 
-.sidebar {
+.index-sidebar {
     flex: 1;
     margin-right: 20px;
 }
 
-.main-content {
+.index-main-content {
     flex: 1;
 }
 
 @media (max-width: 1000px) {
-    .container {
+    .index-container {
         flex-direction: column;
     }
 
-    .sidebar {
+    .index-sidebar {
         margin-right: 0;
     }
 }
