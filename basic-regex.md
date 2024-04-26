@@ -6,9 +6,9 @@ Regex, short for regular expressions, is a powerful tool that can make searching
 
 ![normal text](./assets/images/basic-regex_1.png)
 
-`heymde`
+`normal text`
 
-Wait, what? I thought regex was some hackerman junk which normal mortals don't understand! Well, regex is just a pattern, your name is a pattern too. This will only match when it finds the exact same pattern, in this case, which is "heymde".
+Wait, what? I thought regex was some hackerman junk which normal mortals don't understand! Well, regex is just a pattern, your name is a pattern too. This will only match when it finds the exact same pattern, in this case, which is "normal text".
 
 ### Searching for a phone number:
 
