@@ -1,6 +1,6 @@
 # Load Balancing vs Application Load Balancing
 
-If you have ever used any sort of Load Balancer in AWS, Azure or maybe you're cool and used Kubernetes CRM to create objects like Ingress or LoadBalancer service, you might've realized there is not one type of load balancer, apparently there are mainly two type of Load Balancers, one being Application Load Balancer, and other being the classic Load Balancer.
+If you have ever used any sort of Load Balancer in AWS, Azure or maybe you're cool and used Kubernetes CRM to create objects like Ingress or LoadBalancer service, you might've realized there is not one type of load balancer, apparently there are mainly two type of Load Balancers, one being Application Load Balancer, and other being the Classic Load Balancer.
 
 Comparision in brief:
 
