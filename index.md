@@ -3,14 +3,14 @@
 <div class="index-sidebar">
 I do some programming in Go and I like doing system administration too. Sometimes I get sad and binge eat my <a href="./like-food.html">favorite food</a>. Also, I <a href="./sketches.html">sketch</a>, usually panels from my favorite comics.<br><br>
 
-<b>Connect with me:</b><br>
-<a href="mailto:mprasadme@gmail.com" style="color: white;">Gmail</a>
-<a href="https://github.com/snwzt" style="color: white;">GitHub</a>
-<a href="https://www.linkedin.com/in/mdehury" style="color: white;">LinkedIn</a>
-<a href="https://twitter.com/sloflayer" style="color: white;">Twitter</a>
-<a href="./sketches.html" style="color: white;">Sketches</a>
+<b>Connect with me:</b>
+<a href="mailto:mprasadme@gmail.com">Gmail</a>
+<a href="https://github.com/snwzt">GitHub</a>
+<a href="https://www.linkedin.com/in/mdehury">LinkedIn</a>
+<a href="https://twitter.com/sloflayer">Twitter</a>
+<a href="./sketches.html">Sketches</a>
 
-<br>
+<br><br>
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3VWmqPD3cThdZNR8RSjgMm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
