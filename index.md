@@ -3,7 +3,6 @@
 <div class="index-sidebar">
 I do some programming in Go and I like doing system administration too. Sometimes I get sad and binge eat my <a href="./like-food.html">favorite food</a>. Also, I <a href="./sketches.html">sketch</a>, usually panels from my favorite comics.<br><br>
 
-<b>Connect with me:</b><br>
 <a href="mailto:mprasadme@gmail.com" style="display: inline-block; padding: 0.25rem 0.5rem; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 0.5rem;padding: 0.25rem 0.5rem; ">Gmail</a>
 <a href="https://github.com/snwzt" style="display: inline-block; padding: 0.25rem 0.5rem; background-color: #28a745; color: #fff; text-decoration: none; border-radius: 0.5rem;padding: 0.25rem 0.5rem; ">GitHub</a>
 <a href="https://www.linkedin.com/in/mdehury" style="display: inline-block; padding: 0.25rem 0.5rem; background-color: #0e76a8; color: #fff; text-decoration: none; border-radius: 0.5rem;padding: 0.25rem 0.5rem; ">LinkedIn</a>
