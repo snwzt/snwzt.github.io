@@ -31,6 +31,7 @@ I do some programming in Go and I like doing system administration too. Sometime
         <a href="https://github.com/snwzt" style="color: white;">GitHub</a><br>
         <a href="https://www.linkedin.com/in/mdehury" style="color: white;">LinkedIn</a><br>
         <a href="https://twitter.com/sloflayer" style="color: white;">Twitter</a><br>
+        <a href="./sketches.html" style="color: white;">Sketches</a><br>
     </div>
 </div>
 
