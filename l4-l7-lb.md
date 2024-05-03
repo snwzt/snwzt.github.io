@@ -17,7 +17,7 @@ But even after looking at this table, it bugged me for days, why ingress object 
 
 Remember the OSI Model?
 
-What happens is, at Layer 4 the **packet** which is now known as a **segment** looks something like this:
+What happens is, at Layer 4 the **packet** (from Layer 3) which is now known as a **segment** looks something like this:
 
 | Field             | Size (bytes) | Description                                                   |
 |-------------------|--------------|---------------------------------------------------------------|
@@ -56,6 +56,8 @@ But at Layer 7, the data is called a message, which looks something like this: (
 | Content         | Contains the data being sent with the request (if applicable) |
 | Example         | Form data, JSON payload, or file content                    |
 
-*three tables above are part of a single message*
+*The three tables above are part of a single message*
 
 Did you see that there is no mention of host, path or method in layer 4? well as you can see there isn't, so how is it supposed to even do the fancy load balacing that application load balancer does? exactly. While the classic Load Balancers excel at efficiently distributing traffic based on IP addresses and port numbers, Application Load Balancers route requests based on application-level data. I realized my stupidity and went on with my life with this new **obvious** knowledge in my head, which probably should've been there already.
+
+Though the naming convention of AWS still bugs me. Why do they call Layer 4 Load Balancer "Network Load Balancer"? If it is called **Network Load Balancer** because it is balancing traffic for the Layer 3 aka the network layer, then shouldn't Application Load Balancer be called **Presentation Load Balance**? Anyhoo I've been running my single threaded brain too much. Hope you enjoyed the blog.
