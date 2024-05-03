@@ -4,11 +4,11 @@
 I do some programming in Go and I like doing system administration too. Sometimes I get sad and binge eat my <a href="./like-food.html">favorite food</a>. Also, I <a href="./sketches.html">sketch</a>, usually panels from my favorite comics.<br><br>
 
 <b>Connect with me:</b><br>
-<a href="mailto:mprasadme@gmail.com" style="color: white;">Gmail</a><br>
-<a href="https://github.com/snwzt" style="color: white;">GitHub</a><br>
-<a href="https://www.linkedin.com/in/mdehury" style="color: white;">LinkedIn</a><br>
-<a href="https://twitter.com/sloflayer" style="color: white;">Twitter</a><br>
-<a href="./sketches.html" style="color: white;">Sketches</a><br>
+<a href="mailto:mprasadme@gmail.com" style="color: white;">Gmail</a>
+<a href="https://github.com/snwzt" style="color: white;">GitHub</a>
+<a href="https://www.linkedin.com/in/mdehury" style="color: white;">LinkedIn</a>
+<a href="https://twitter.com/sloflayer" style="color: white;">Twitter</a>
+<a href="./sketches.html" style="color: white;">Sketches</a>
 
 <br>
 
