@@ -56,7 +56,7 @@ But at Layer 7, the data is called a message, which looks something like this: (
 | Content         | Contains the data being sent with the request (if applicable) |
 | Example         | Form data, JSON payload, or file content                    |
 
-*The three tables above are part of a single message*
+*The three tables above are part of a single message.*
 
 Did you see that there is no mention of Host, Path or Method at Layer 4? Well, as you can see there isn't, so how is it supposed to even do the fancy load balacing that Application Load Balancer does? Exactly. While the Classic Load Balancers excel at efficiently distributing traffic based on IP addresses and port numbers, Application Load Balancers route requests based on application-level data. I realized my stupidity and went on with my life with this new **obvious** knowledge in my head, which probably should've been there already.
 
