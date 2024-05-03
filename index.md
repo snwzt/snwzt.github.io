@@ -10,7 +10,9 @@ I do some programming in Go and I like doing system administration too. Sometime
 <a href="https://twitter.com/sloflayer" style="color: white;">Twitter</a><br>
 <a href="./sketches.html" style="color: white;">Sketches</a><br>
 
-<iframe src="https://open.spotify.com/embed/playlist/3VWmqPD3cThdZNR8RSjgMm?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3VWmqPD3cThdZNR8RSjgMm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 </div>
 
