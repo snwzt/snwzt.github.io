@@ -13,9 +13,9 @@ Comparision in brief:
 | Support for Complex Apps | Limited | Comprehensive |
 | Security Features | Limited | Enhanced (content-based firewalling, DDoS protection) |
 
-But even after looking at this table, it bugged me for days, why ingress object allows me to do path based or host based routing on kubernetes, but not the loadbalancer serivce in kubernetes? 
+But even after looking at this table, it bugged me for days, why ingress object allows me to do path based and host based routing, but not the loadbalancer serivce in kubernetes? 
 
-Remember the OSI Model?
+**Remember the OSI Model?**
 
 What happens is, at Layer 4 the **packet** (from Layer 3) which is now known as a **segment** looks something like this:
 
