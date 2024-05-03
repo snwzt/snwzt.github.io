@@ -41,6 +41,7 @@ I do some programming in Go and I like doing system administration too. Sometime
 <h1>Blogs</h1>
 
 <ul>
+    <li><a href="./l4-l7-lb.html">Load Balancer vs Application Load Balancer</a></li>
     <li><a href="./ptr-go.html">Pointers in Go</a></li>
     <li><a href="./like-food.html">Food I love</a></li>
     <li><a href="./multi-stage-oci.html">Multi-stage OCI builds</a></li>
