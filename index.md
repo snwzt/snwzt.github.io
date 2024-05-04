@@ -42,6 +42,7 @@ I do some programming in Go and I like doing system administration too. Sometime
 }
 
 .index-main-content {
+    margin-top: 1rem;
     flex: 1;
 }
 
@@ -52,6 +53,10 @@ I do some programming in Go and I like doing system administration too. Sometime
 
     .index-sidebar {
         margin-right: 1rem;
+    }
+
+    .index-main-content {
+        margin-top: unset;
     }
 }
 
