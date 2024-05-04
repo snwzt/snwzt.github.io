@@ -9,6 +9,7 @@
 
     .sketch-item {
         width: 100%;
+        background-color: #000000;
     }
 
     .sketch-item img {
