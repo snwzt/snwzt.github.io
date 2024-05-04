@@ -20,6 +20,8 @@
         .sketch-item {
             width: 100%;
             background-color: #000000;
+            display: flex;
+            align-items: center;
         }
     }
 
@@ -31,6 +33,8 @@
         .sketch-item {
             width: 100%;
             background-color: #000000;
+            display: flex;
+            align-items: center;
         }
     }
 </style>
