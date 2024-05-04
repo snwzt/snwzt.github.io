@@ -3,8 +3,8 @@
 <style>
     .sketch-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 5px;
+        grid-template-columns: 1fr;  /* For phones: 1 column */
+        gap: 0.25rem;
     }
 
     .sketch-item {
@@ -16,9 +16,15 @@
         height: auto;
     }
 
-    @media only screen and (max-width: 1000px) {
+    @media only screen and (min-width: 600px) {
         .sketch-container {
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            grid-template-columns: repeat(2, 1fr); /* For tablets: 2 columns */
+        }
+    }
+
+    @media only screen and (min-width: 768px) {
+        .sketch-container {
+            grid-template-columns: repeat(3, 1fr); /* For desktop: 3 columns */
         }
     }
 </style>
