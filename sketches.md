@@ -3,13 +3,8 @@
 <style>
     .sketch-container {
         display: grid;
-        grid-template-columns: 1fr;  /* For phones: 1 column */
+        grid-template-columns: 1fr;
         gap: 0.25rem;
-    }
-
-    .sketch-item {
-        width: 100%;
-        background-color: #000000;
     }
 
     .sketch-item img {
@@ -19,13 +14,23 @@
 
     @media only screen and (min-width: 600px) {
         .sketch-container {
-            grid-template-columns: repeat(2, 1fr); /* For tablets: 2 columns */
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .sketch-item {
+            width: 100%;
+            background-color: #000000;
         }
     }
 
     @media only screen and (min-width: 768px) {
         .sketch-container {
-            grid-template-columns: repeat(3, 1fr); /* For desktop: 3 columns */
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .sketch-item {
+            width: 100%;
+            background-color: #000000;
         }
     }
 </style>
