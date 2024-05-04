@@ -34,25 +34,24 @@ I do some programming in Go and I like doing system administration too. Sometime
 <style>
 .index-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .index-sidebar {
     flex: 1;
-    margin-right: 20px;
 }
 
 .index-main-content {
     flex: 1;
 }
 
-@media (max-width: 1000px) {
+@media only screen and (min-width: 768px) {
     .index-container {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .index-sidebar {
-        margin-right: 0;
+        margin-right: 1rem;
     }
 }
 
