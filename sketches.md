@@ -19,7 +19,7 @@
 
         .sketch-item {
             width: 100%;
-            background-color: #000000;
+            background-color: #eeeeee;
             display: flex;
             align-items: center;
         }
@@ -32,7 +32,7 @@
 
         .sketch-item {
             width: 100%;
-            background-color: #000000;
+            background-color: #eeeeee;
             display: flex;
             align-items: center;
         }
