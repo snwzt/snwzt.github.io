@@ -1,23 +1,22 @@
-# Load Balancing vs Application Load Balancing
+# Why can't Classic Load Balancer provide functionality of Application Load Balancer?
 
 If you have ever used any sort of Load Balancer in AWS, Azure or maybe you're cool and used Kubernetes CCM to create objects like Ingress or LoadBalancer service, you might've realized there is not one type of load balancer, apparently there are mainly two type of Load Balancers, one being Application Load Balancer, and other being the Classic Load Balancer.
 
 Comparision in brief:
 
-| Functionality            | Classic Load Balancers                | Application Load Balancers          |
-|--------------------------|---------------------------------------|------------------------------------|
-| Layer of Operation | Layer 4 (Transport Layer) | Layer 7 (Application Layer) |
-| Routing | Based on IP addresses and port numbers | Based on application-level data |
-| Load Balancing Algorithms | Basic algorithms (round-robin, least connections) | Advanced algorithms (content-based routing, SSL termination) |
-| Processing Requirements | Minimal, Hence highly performant | Moderate to High |
-| Support for Complex Apps | Limited | Comprehensive |
-| Security Features | Limited | Enhanced (content-based firewalling, DDoS protection) |
+| Classic Load Balancers                | Application Load Balancers          |
+|---------------------------------------|------------------------------------|
+| Layer 4 (Transport Layer) | Layer 7 (Application Layer) |
+| Basic load balancing functionality | Host based and Path based routing |
+| Basic algorithms (round-robin, least connections) | Advanced algorithms (content-based routing, SSL termination) |
+| Minimal, Hence highly performant | Comparatively higher resource consumption |
+| Limited security features | Enhanced security features (content-based firewalling, DDoS protection) |
 
-But even after looking at this table, it bugged me for days, why ingress object allows me to do path based and host based routing, but not the loadbalancer serivce in kubernetes? 
+But even after looking at this table, it bugged me for days, why ingress object allows me to do path based and host based routing, but not the load balancer serivce in kubernetes? 
 
 **Remember the OSI Model?**
 
-What happens is, at Layer 4 the **packet** (from Layer 3) which is now known as a **segment** looks something like this:
+So, at Layer 4 the **packet** (from Layer 3) which is now known as a **segment** looks something like this:
 
 | Field             | Size (bytes) | Description                                                   |
 |-------------------|--------------|---------------------------------------------------------------|
