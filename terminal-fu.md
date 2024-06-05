@@ -14,7 +14,7 @@ snwzt@cara ~ > kill 163293
 
 ## objdump
 
-I use `objdump` to list the shared libraries required by a binary. This is particularly useful when building minimal Docker images for Go applications that produce binaries. For example:
+I use `objdump` to list the shared libraries required by a binary. This is particularly useful when building minimal Docker images for Go applications which compile to binaries. For example:
 
 ```bash
 snwzt@cara ~ > objdump -p bin/csp | grep NEEDED
