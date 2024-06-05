@@ -20,7 +20,7 @@ I do some programming in Go and I like doing system administration too. Sometime
 
 <ul>
     <li><a href="./terminal-fu.html">Linux Tools that Improved my Terminal-Fu</a></li>
-    <li><a href="./quick-bash-scripting.html">Quick Bash Scripting Guide</a></li>
+    <li><a href="./intro-bash-scripting.html">Introduction to Bash Scripting</a></li>
     <li><a href="./l4-l7-lb.html">Why can't Classic Load Balancer provide functionality of Application Load Balancer?</a></li>
     <li><a href="./ptr-go.html">Pointers in Go</a></li>
     <li><a href="./like-food.html">Food I love</a></li>
