@@ -4,7 +4,7 @@ These Linux tools have significantly enhanced my terminal skills.
 
 ## fuser
 
-If you're a developer, you've likely encountered issues like "port already in use" or "bind address already in use," where you have no idea which program (or process) is occupying that port. `fuser` is a handy tool that identifies processes using files or sockets. For example, find process (in this case, a tcp server) running at 5000 and kill the process
+If you're a developer, you've likely encountered issues like "port already in use" or "bind address already in use," where you have no idea which program (or process) is occupying that port. `fuser` is a handy tool that identifies processes using files or sockets. For example, let's find process (in this case, a tcp server) running at port 5000, and kill that process.
 
 ```bash
 snwzt@cara ~ > fuser 5000/tcp
