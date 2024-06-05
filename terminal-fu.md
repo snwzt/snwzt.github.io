@@ -1,6 +1,6 @@
 # Linux Tools that Improved my Terminal-Fu
 
-These Linux tools have significantly enhanced my terminal skills and made my life much easier.
+These Linux tools have significantly enhanced my terminal skills.
 
 ## fuser
 
