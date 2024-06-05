@@ -35,11 +35,11 @@ Here, `.` represents the current directory. `-type f` filters only regular files
 `grep` is used to list files that match regex patterns.
 
 ```bash
-# display filename of files whose text match pattern
+# display lines containing the words "app", "apple", or "apples", i.e. display filename of files whose text match pattern
 grep -l "^app(le|les)?$" *.txt
 
-# display text inverse of case insensitive match pattern 
-grep -vi "^banana$" example.txt
+# display lines not containing the word "banana", i.e. display text inverse of match pattern (case insensitive)
+grep -vi "^banana$" example.txt 
 
 # print lines that match with regex
 grep -E "^[a-zA-Z0-9._]+@[a-zA-Z0-9]+.[a-z]{2,3}(.[a-z]{2,3})?$" email_list.txt
