@@ -2,7 +2,7 @@
 
 These Linux tools have significantly enhanced my terminal skills and made my life much easier.
 
-### fuser
+## fuser
 
 If you're a developer, you've likely encountered issues like "port already in use" or "bind address already in use," where you have no idea which program (or process) is occupying that port. `fuser` is a handy tool that identifies processes using files or sockets. For example, find process (in this case, a tcp server) running at 5000 and kill the process
 
@@ -12,7 +12,7 @@ snwzt@cara ~ > fuser 5000/tcp
 snwzt@cara ~ > kill 163293 
 ```
 
-### objdump
+## objdump
 
 I use `objdump` to list the shared libraries required by a binary. This is particularly useful when building minimal Docker images for Go applications that produce binaries. For example:
 
@@ -22,7 +22,7 @@ NEEDED               libresolv.so.2
 NEEDED               libc.so.6
 ```
 
-### find
+## find
 `find` is used for searching files and directories based on a variety of conditions like name, size, modification date, and more. For example:
 
 ```bash
@@ -31,7 +31,7 @@ find . -type f -name "*.txt" -size +1M -maxdepth 3 -mindepth 2
 
 Here, `.` represents the current directory. `-type f` filters only regular files, `-name "*.txt"` selects files ending in `.txt`, `-size +1M` filters by size (>1MB), `-maxdepth 3` and `-mindepth 2` restricts search depth.
 
-### grep
+## grep
 `grep` is used to list files that match regex patterns.
 
 ```bash
@@ -45,7 +45,7 @@ grep -vi "^banana$" example.txt
 grep -E "^[a-zA-Z0-9._]+@[a-zA-Z0-9]+.[a-z]{2,3}(.[a-z]{2,3})?$" email_list.txt
 ```
 
-### sed
+## sed
 Stream editor which is commonly used to perform find and replace.
 
 ```bash
@@ -57,7 +57,7 @@ sed '2d' example.txt # Delete the second line
 sed '/hello/d' example.txt # Delete lines containing the pattern
 ```
 
-### xargs
+## xargs
 Used to build and execute commands from standard input.
 
 ```bash
@@ -77,7 +77,7 @@ ls *.md | xargs -P 4 -n 1 grep "example"
 ```
 Here, -P 4 specifies 4 process can be run parallely and -n 1 makes sure one filename is passed to one grep command.
 
-### tee
+## tee
 Used to redirect the output of a command to both the stdout and one or more files simultaneously. It is handy for creating verbose logs while executing scripts.
 
 ```bash
@@ -85,7 +85,7 @@ ls -l | tee file_list.txt # redirect output to file
 ls -l | tee -a file_list.txt # append output to file
 ls -l | tee file_list.txt backup_file_list.txt # redirecting output to multiple files
 ```
-### tar 
+## tar 
 Used for archiving files and directories.
 
 ```bash

@@ -3,7 +3,7 @@ It is hard to remember bash shell scripting if you try to memorize it. With my h
 
 This script is a monitoring tool that tells you about your CPU, CPU Temperature, Fan Speed, Memory, Swap, Ethernet, and WiFi speeds.
 
-### Monitoring CPU Usage
+## Monitoring CPU Usage
 I did not want to use built-in tools like top, so I grabbed info from the proc directory:
 
 ```bash
@@ -19,7 +19,7 @@ echo "CPU Usage: $cpu_usage %"
 
 CPU info 1 contains CPU time for normal user mode processes, CPU info 2 contains CPU time for niced user mode processes (niced ones are processes with custom priorities), CPU info 3 is CPU time for kernel mode processes, and CPU info 4 is CPU time spent idle waiting.
 
-### CPU Temperature
+## CPU Temperature
 I know I could've used lmsensors, but I had my own goals. I use a ThinkPad, so I grabbed data from the proc directory. Also, it checks whether the thinkpad_acpi kernel module is loaded or not to avoid errors.
 
 ```bash
@@ -31,7 +31,7 @@ else
 fi
 ```
 
-### Fan Speed
+## Fan Speed
 This function monitors the CPU fan speed on a ThinkPad by reading data from the proc directory and checks if the thinkpad_acpi kernel module is loaded to avoid errors.
 
 ```bash
@@ -43,7 +43,7 @@ else
 fi
 ```
 
-### Monitoring RAM Usage
+## Monitoring RAM Usage
 This function grabs memory usage information from the proc directory, calculates the total and available memory, and then converts it into MB for readability.
 
 ```bash
@@ -56,7 +56,7 @@ mem_used_mb=$(( (mem_total - mem_free) / 1024 ))
 echo "Memory Used: $mem_used_mb MB / $mem_total_mb MB"
 ```
 
-### Monitoring Swap Usage
+## Monitoring Swap Usage
 This function checks the swap usage by reading data from the proc directory, calculating the total and free swap memory, and then converting it into MB for readability.
 
 ```bash
@@ -69,7 +69,7 @@ swap_used_mb=$(( (swap_total - swap_free) / 1024 ))
 echo "Swap Used: $swap_used_mb MB / $swap_total_mb MB"
 ```
 
-### Ethernet Speed
+## Ethernet Speed
 This function monitors Ethernet usage by checking the byte count from the sys directory. It calculates the difference between the current and previous byte counts to determine the speed, then converts it to Mbps or Kbps for readability.
 
 ```bash
@@ -106,7 +106,7 @@ get_ethernet_stats() {
 }
 ```
 
-### WiFi Speed
+## WiFi Speed
 This function monitors WiFi usage similarly to Ethernet, by checking the byte count from the sys directory. It calculates the difference between the current and previous byte counts to determine the speed, then converts it to Mbps or Kbps for readability.
 
 ```bash
@@ -143,7 +143,7 @@ get_wifi_stats() {
 }
 ```
 
-### Using the script
+## Using the script
 You can check out the complete script [here](https://github.com/snwzt/cringe-ahh-scripts/blob/main/system-status).
 
 ![example](./assets/images/quick-bash-scripting.png)
