@@ -146,19 +146,6 @@ get_wifi_stats() {
 ### Using the script
 You can check out the complete script [here](https://github.com/snwzt/cringe-ahh-scripts/blob/main/system-status).
 
-```bash
-Usage: system-status [option]
-Options:
-  cpu       Display CPU usage
-  temp      Display CPU temperature
-  fan       Display CPU fan speed
-  mem       Display Memory usage
-  swap      Display Swap usage
-  eth       Display Ethernet usage
-  wifi      Display Wifi usage
-  all       Display all information
-```
-
 ![example](./assets/images/quick-bash-scripting.png)
 
 ## Extras
