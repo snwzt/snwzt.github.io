@@ -7,13 +7,13 @@ This script is a monitoring tool that tells you about your CPU, CPU Temperature,
 I did not want to use built-in tools like top, so I grabbed info from the proc directory:
 
 ```bash
-cpu_info=($(grep '^cpu ' /proc/stat))
+cpu_info=($(grep '^cpu ' /proc/stat)) # extra () converts it to array
 
 total_cpu_time=$((${cpu_info[1]} + ${cpu_info[2]} + ${cpu_info[3]} + ${cpu_info[4]}))
-
 idle_cpu_time=${cpu_info[4]}
 
 cpu_usage=$((100 - (100 * ($idle_cpu_time - $prev_idle_cpu_time) / ($total_cpu_time - $prev_total_cpu_time))))
+
 echo "CPU Usage: $cpu_usage %"
 ```
 
