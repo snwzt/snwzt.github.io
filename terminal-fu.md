@@ -75,7 +75,7 @@ Parallel execution:
 ```bash
 ls *.md | xargs -P 4 -n 1 grep "example"
 ```
-Here, -P 4 specifies 4 process can be run parallely and -n 1 makes sure one filename is passed to one grep command.
+Here, -P 4 specifies 4 process can be run parallely and -n 1 makes sure one filename is passed to one grep command. I am using grep in example as grep is single threaded.
 
 ## tee
 Used to redirect the output of a command to both the stdout and one or more files simultaneously. It is handy for creating verbose logs while executing scripts.
