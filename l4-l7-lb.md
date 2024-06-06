@@ -1,6 +1,6 @@
 # Why can't Classic Load Balancer provide functionality of Application Load Balancer?
 
-If you have ever used any sort of Load Balancer in AWS, Azure or maybe you're cool and used Kubernetes CCM to create objects like Ingress or LoadBalancer service, you might've realized there is not one type of load balancer, apparently there are mainly two type of Load Balancers, one being Application Load Balancer, and other being the Classic Load Balancer.
+If you have ever used any sort of Load Balancer in AWS, Azure or maybe you used Kubernetes CCM to create objects like Ingress or LoadBalancer service, you might've realized there is not one type of load balancer, there are mainly two type of Load Balancers, one being Application Load Balancer (known as Ingress resource in Kubernetes, implemented by Traefik or Nginx), and other being the Classic Load Balancer (the loadbalancer service).
 
 Comparision in brief:
 
