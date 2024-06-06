@@ -70,7 +70,7 @@ echo "Swap Used: $swap_used_mb MB / $swap_total_mb MB"
 ```
 
 ## Ethernet Speed
-This function monitors Ethernet usage by checking the byte count from the sys directory. It calculates the difference between the current and previous byte counts to determine the speed, then converts it to Mbps or Kbps for readability.
+This function monitors Ethernet usage by checking the bit count from the sys directory. It calculates the difference between the current and previous bit counts to determine the speed, then converts it to Mbps or Kbps for readability.
 
 ```bash
 prev_rx_bytes_eth=$(cat /sys/class/net/enp2s0/statistics/rx_bytes)
@@ -107,7 +107,7 @@ get_ethernet_stats() {
 ```
 
 ## WiFi Speed
-This function monitors WiFi usage similarly to Ethernet, by checking the byte count from the sys directory. It calculates the difference between the current and previous byte counts to determine the speed, then converts it to Mbps or Kbps for readability.
+This function monitors WiFi usage similarly to Ethernet, by checking the bit count from the sys directory. It calculates the difference between the current and previous bit counts to determine the speed, then converts it to Mbps or Kbps for readability.
 
 ```bash
 prev_rx_bytes_wifi=$(cat /sys/class/net/wlp3s0/statistics/rx_bytes)
