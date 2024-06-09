@@ -19,7 +19,7 @@ I do some programming in Go and I like doing system administration too. Sometime
 <h1>Blogs</h1>
 
 <ul>
-    <li><a href="./testimg.html">Nono square</a></li>
+    <li><a href="./testong.html">Nono square</a></li>
     <li><a href="./go-sync-package.html">Sync package in Go</a></li>
     <li><a href="./go-context-package.html">Context package in Go</a></li>
     <li><a href="./go-channel.html">Channels in Go</a></li>

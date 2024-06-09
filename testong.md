@@ -1,6 +1,6 @@
 ---
 image:
-    path: assets/images/blank.png
+    path: 
 ---
 
 # Basic Regex with Examples
