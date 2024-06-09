@@ -2,25 +2,37 @@
 The context package in Go is designed to carry deadlines, cancellation signals, and other request-scoped values across API boundaries and between processes. This package is essential for managing the lifecycle of requests in concurrent programming. Essentially, the context in Go is the same as the **context** in the English language. So, when we pass a context to a goroutine, we want it to know the **context** for the execution. For example, in the case of a web backend written in Go, if it is trying to connect to the database, we don't want it to block the operation by retrying forever. We can use a timeout context of 10 seconds, and after 10 seconds it will stop trying to establish the connection.
 
 There are two types of context-
-- **Background:** Returns an empty context that has methods like Deadline, Done, Err, and Value.
-- **TODO:** Similar to Background but used as a placeholder for contexts that will be implemented later.
+
+**Background:** Returns an empty context that has methods like Deadline, Done, Err, and Value.
+
+**TODO:** Similar to Background but used as a placeholder for contexts that will be implemented later.
 
 ## Methods in Context
-- **Deadline:** Returns the time when work is supposed to be done on behalf of the context and after that it should be cancelled.
-- **Done:** It is basically a channel which tells you if goroutine has been finished or not.
-- **Err:** If done is closed, it will return error. If not, it will return nil.
-- **Value:** Returns value associated with the context
+**Deadline:** Returns the time when work is supposed to be done on behalf of the context and after that it should be cancelled.
+**Done:** It is basically a channel which tells you if goroutine has been finished or not.
+
+**Err:** If done is closed, it will return error. If not, it will return nil.
+
+**Value:** Returns value associated with the context
 
 ## Functions in Context
-- **Cause:** Returns the "cause" of a context cancellation. If cause is not explicitly defined, it will return same value as Err() method.
-- **WithCancel:** Creates a new context that can be canceled. It returns the new context and a cancel function.
-- **WithCancelCause:** Works like WithCancel but lets you provide a reason or "cause" for cancellation.
-- **WithDeadline:** Creates a new context that will automatically cancel at a specific time. It returns the new context and a cancel function.
-- **WithDeadlineCause:** Similar to WithDeadline, but lets you prove a "cause" for cancellation.
-- **WithTimeout:** Creates a new context that will automatically cancel after a specific duration. It returns the new context and a cancel function.
-- **WithTimeoutCause:** Similar to WithTimeout, but lets you prove a "cause" for cancellation.
-- **WithValue:** Creates a new New context with a specific value associated with a key. It returns the new context.
-- **WithoutCancel:** Creates a context from an existing context that can't be canceled.
+**Cause:** Returns the "cause" of a context cancellation. If cause is not explicitly defined, it will return same value as Err() method.
+
+**WithCancel:** Creates a new context that can be canceled. It returns the new context and a cancel function.
+
+**WithCancelCause:** Works like WithCancel but lets you provide a reason or "cause" for cancellation.
+
+**WithDeadline:** Creates a new context that will automatically cancel at a specific time. It returns the new context and a cancel function.
+
+**WithDeadlineCause:** Similar to WithDeadline, but lets you prove a "cause" for cancellation.
+
+**WithTimeout:** Creates a new context that will automatically cancel after a specific duration. It returns the new context and a cancel function.
+
+**WithTimeoutCause:** Similar to WithTimeout, but lets you prove a "cause" for cancellation.
+
+**WithValue:** Creates a new New context with a specific value associated with a key. It returns the new context.
+
+**WithoutCancel:** Creates a context from an existing context that can't be canceled.
 
 ## Example
 Examples for using functions in context discussed above:
