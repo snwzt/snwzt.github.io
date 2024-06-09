@@ -1,5 +1,7 @@
 # Context in Go
-The context package in Go is designed to carry deadlines, cancellation signals, and other request-scoped values across API boundaries and between processes. This package is essential for managing the lifecycle of requests in concurrent programming. Essentially the context in Go is same as context in the English we speak. When we pass a context to a goroutine, we want it to know the "context" for the execution. There are two types of context-
+The context package in Go is designed to carry deadlines, cancellation signals, and other request-scoped values across API boundaries and between processes. This package is essential for managing the lifecycle of requests in concurrent programming. Essentially, the context in Go is the same as the "context" in the English language. So, when we pass a context to a goroutine, we want it to know the "context" for the execution. For example, in the case of a web backend written in Go, if it is trying to connect to the database, we don't want it to block the operation by retrying forever. We can use a timeout context of 10 seconds, and after 10 seconds it will stop trying to establish the connection.
+
+There are two types of context-
 - Background: Returns an empty context that has methods like Deadline, Done, Err, and Value.
 - TODO: Similar to Background but used as a placeholder for contexts that will be implemented later.
 
