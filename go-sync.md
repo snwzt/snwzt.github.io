@@ -10,9 +10,11 @@ Go offers various tools to manage concurrent execution. While channels are the h
 
 ## WaitGroup
 WaitGroup is used to wait for a collection of goroutines to finish. It tracks the number of goroutines and blocks until all goroutines have finished executing. Methods include:
-- **Add(d int):** Increments the waiting counter by `d`.
-- **Done():** Decrements the counter by one, indicating that a goroutine has completed its task.
-- **Wait():** Blocks until the counter becomes zero.
+**Add(d int):** Increments the waiting counter by `d`.
+
+**Done():** Decrements the counter by one, indicating that a goroutine has completed its task.
+
+**Wait():** Blocks until the counter becomes zero.
 
 ```go
 func 
@@ -35,9 +37,11 @@ func main() {
 
 ## Mutex
 A Mutex is used to provide mutual exclusion, ensuring that only one goroutine can access a critical section of code at a time. Critical section of code is the section of code which is being accessed by multiple goroutines, i.e. it is a shared resource and without mutual exclusion lock, it will result in race conditions. Mutex is a form of pessimistic locking. Methods include:
-- **Lock():** Acquires the lock. If lock already in use, calling goroutine is blocked till lock is released.
-- **TryLock():** Attempts to acquire the lock and returns success status as bool.
-- **Unlock():** Releases the lock.
+**Lock():** Acquires the lock. If lock already in use, calling goroutine is blocked till lock is released.
+
+**TryLock():** Attempts to acquire the lock and returns success status as bool.
+
+**Unlock():** Releases the lock.
 
 ```go
 var (
@@ -104,10 +108,13 @@ Final value: 9
 
 ## RWMutex
 An RWMutex is a reader/writer mutual exclusion lock. The lock can be held by an arbitrary number of readers or a single writer. RWMutex is useful in scenarios where you have multiple readers but only a few writers. Methods include:
-- **Lock():** Acquires the write lock. If the lock is already in use, the calling goroutine blocks until the lock is available.
-- **Unlock():** Releases the write lock.
-- **RLock():** Acquires a read lock. Multiple readers can hold the lock simultaneously.
-- **RUnlock():** Releases a read lock.
+**Lock():** Acquires the write lock. If the lock is already in use, the calling goroutine blocks until the lock is available.
+
+**Unlock():** Releases the write lock.
+
+**RLock():** Acquires a read lock. Multiple readers can hold the lock simultaneously.
+
+**RUnlock():** Releases a read lock.
 
 ```go
 var (
@@ -154,8 +161,9 @@ Reader 2: Value is 10
 
 ## Pool
 It is a scalable pool of temporary, reusable objects. Its purpose is to cache allocated, but unused items for later reuse, relieving pressure on the garbage collector. Methods include:
-- **Get():** fetches an arbitrary item from the Pool, removes it from the Pool, and returns it to the caller.
-- **Put():** adds item to the Pool.
+**Get():** fetches an arbitrary item from the Pool, removes it from the Pool, and returns it to the caller.
+
+**Put():** adds item to the Pool.
 
 ```go
 func main() {
@@ -170,9 +178,11 @@ func main() {
 
 ## Cond
 Cond is used to create a condition variable, which allows goroutines to wait for or announce changes to a shared state. It's typically used with a Mutex. Methods include:
-- **Wait():** Waits for a notification. The associated Mutex must be locked before calling Wait.
-- **Signal():** Wakes up one goroutine waiting on the condition variable.
-- **Broadcast():** Wakes up all goroutines waiting on the condition variable.
+**Wait():** Waits for a notification. The associated Mutex must be locked before calling Wait.
+
+**Signal():** Wakes up one goroutine waiting on the condition variable.
+
+**Broadcast():** Wakes up all goroutines waiting on the condition variable.
 
 ```go
 var (
@@ -203,7 +213,7 @@ func main() {
 
 ## Once
 Once ensures that a piece of code is executed only once, regardless of the number of goroutines executing it. This is useful for one-time initialization. Methods include:
-- **Do():** Executes the function passed as argument only once.
+**Do():** Executes the function passed as argument only once.
 
 ```go
 var once sync.Once
@@ -225,10 +235,13 @@ func main() {
 
 ## Map
 Map is a concurrent map safe for concurrent use by multiple goroutines without additional locking or coordination. Unlike the standard Go map, which requires explicit synchronization, sync.Map handles concurrency internally. This makes it suitable for scenarios where high read and write contention is expected. The zero value of a sync.Map is empty and ready for use. However, in most cases, using a plain Go map with explicit locking (via sync.Mutex or sync.RWMutex) is recommended due to better performance in low contention scenarios. Methods include:
-- **Store():** Sets the value for a key.
-- **Load():** Returns the value stored in the map for a key, and a boolean indicating whether the key was found.
-- **Delete():** Deletes the value for a key.
-- **LoadOrStore():** Returns the existing value for the key if present, otherwise stores and returns the given value.
+**Store():** Sets the value for a key.
+
+**Load():** Returns the value stored in the map for a key, and a boolean indicating whether the key was found.
+
+**Delete():** Deletes the value for a key.
+
+**LoadOrStore():** Returns the existing value for the key if present, otherwise stores and returns the given value.
 
 ```go
 func main() {
