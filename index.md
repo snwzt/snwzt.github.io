@@ -21,7 +21,7 @@ I do some programming in Go and I like doing system administration too. Sometime
 <ul>
     <li><a href="./go-sync-package.html">Sync package in Go</a></li>
     <li><a href="./go-context-package.html">Context package in Go</a></li>
-    <li><a href="./go-channels.html">Channels in Go</a></li>
+    <li><a href="./go-channel.html">Channels in Go</a></li>
     <li><a href="./terminal-fu.html">Linux Tools that Improved my Terminal-Fu</a></li>
     <li><a href="./intro-bash-scripting.html">Introduction to Bash Scripting</a></li>
     <li><a href="./l4-l7-lb.html">Why can't Classic Load Balancer provide functionality of Application Load Balancer?</a></li>
