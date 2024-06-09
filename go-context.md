@@ -9,6 +9,7 @@ There are two types of context-
 
 ## Methods in Context
 **Deadline:** Returns the time when work is supposed to be done on behalf of the context and after that it should be cancelled.
+
 **Done:** It is basically a channel which tells you if goroutine has been finished or not.
 
 **Err:** If done is closed, it will return error. If not, it will return nil.
