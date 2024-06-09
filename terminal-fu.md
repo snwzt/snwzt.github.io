@@ -2,7 +2,7 @@
 image:
     path: assets/images/og_image.png
     width: 300
-    height: 200
+    height: 169
 ---
 
 # Linux Tools that Improved my Terminal-Fu
