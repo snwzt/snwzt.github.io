@@ -1,3 +1,9 @@
+---
+image:
+    path: assets/images/og_image.png
+    width: 500
+    height: 500
+---
 # Basic Regex with Examples
 
 Regex, short for regular expressions, is a powerful tool that can make searching text look magical. You can use it to create patterns or expressions and search for matching text. Let's see some examples below.
