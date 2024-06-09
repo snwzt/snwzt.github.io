@@ -1,3 +1,10 @@
+---
+image:
+    path: assets/images/og_image.png
+    width: 500
+    height: 500
+---
+
 # Introduction to Bash Scripting
 It is hard to remember bash shell scripting if you try to memorize it. With my horrible memory, that makes it even harder. It is confusing for me to make notes on topics like these too. So, I wrote a script to remember some basic bash scripting I use in general.
 

@@ -1,5 +1,11 @@
-# Linux Tools that Improved my Terminal-Fu
+---
+image:
+    path: assets/images/og_image.png
+    width: 500
+    height: 500
+---
 
+# Linux Tools that Improved my Terminal-Fu
 These Linux tools have significantly enhanced my terminal skills.
 
 ## fuser

@@ -1,5 +1,11 @@
-# OSI Model Oversimplified
+---
+image:
+    path: assets/images/og_image.png
+    width: 500
+    height: 500
+---
 
+# OSI Model Oversimplified
 Let's say you want to talk to a friend, over the internet. You type a message and hit send. The application quickly pushes your message to the presentation layer, where it takes care of the text format (ASCII or UTF-8), encryption (you don't want others to know about your conversation, right?) and compression (smaller it is, cheaper). The current layer hands the chunk over to the session layer, which helped you to start the conversation (and hide your location, if you're using a VPN) in the first place. It tags the chunk with the gate (or port) it needs to go through because the firewall is there to block things (at your and your friend's machine) to keep you guys safe.
 
 You've reached the bridge. The connection has been established already, it can be TCP (with three way handshake) or UDP. Three way handshake happens for TCP because TCP is a connection oriented protocol, which makes sure that the receiver receives the message. It goes like this:

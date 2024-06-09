@@ -1,5 +1,11 @@
-# Food I love
+---
+image:
+    path: assets/images/og_image.png
+    width: 500
+    height: 500
+---
 
+# Food I love
 Everyone eats food because mitochondria are the powerhouse of the cell, and my stomach is the self-destructive nuclear arsenal. I mean, why? Why on earth do I need hydrochloric acid to digest food? That sounds dangerous. Once I accidentally touched a dropper that someone left on my table, which was used for taking out concentrated HCl. I still remember the horror that I felt that day. Anyhoo, let's get started with the list:
 
 ## Beverages

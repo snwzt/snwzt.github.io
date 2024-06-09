@@ -1,5 +1,11 @@
-# Multi stage builds of OCI images
+---
+image:
+    path: assets/images/og_image.png
+    width: 500
+    height: 500
+---
 
+# Multi stage builds of OCI images
 One of the main benefits of using container image to ship application is isolation and security. Also, they are meant to be lightweight. But because of size of bigger images like Ubuntu, the image alone easily reaches size greater than 1 GB.
 
 It's not wrong or anything, it's just a bad practice. It will work, as expected, but there are few problems.

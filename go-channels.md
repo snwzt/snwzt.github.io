@@ -1,3 +1,10 @@
+---
+image:
+    path: assets/images/og_image.png
+    width: 500
+    height: 500
+---
+
 # Channels in Go
 Channels are a feature in Go that enable goroutines to communicate and synchronize with each other. They:
 - Are Goroutine-safe, i.e. they are safe for concurrent use by multiple goroutines. This is ensured by the use of mutexes, which prevent race conditions when reading from or writing to channels.
