@@ -1,8 +1,8 @@
 ---
 image:
     path: assets/images/og_image.png
-    width: 500
-    height: 500
+    width: 300
+    height: 169
 ---
 
 # Channels in Go
