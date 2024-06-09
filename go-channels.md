@@ -67,7 +67,7 @@ If a goroutine cannot send or receive data because the channel is full or empty,
 ## Unbuffered Channels
 Unbuffered channels, as the name suggests, do not have a buffer. They require both a sender and a receiver to be ready simultaneously for the data to be transferred. 
 
-## Using `select` to Recieve from Multiple Channels
+## Recieve from Multiple Channels
 The `select` statement lets a goroutine wait and recieve from multiple channels:
 ```go
 func main() {
