@@ -12,7 +12,7 @@ There are two types of context-
 - Value: Returns value associated with the context
 
 ## Functions in Context
-- Cause: Returns the "cause" of a context cancellation.
+- Cause: Returns the "cause" of a context cancellation. If cause is not explicitly defined, it will return same value as Err() method.
 - WithCancel: Creates a new context that can be canceled. It returns the new context and a cancel function.
 - WithCancelCause: Works like WithCancel but lets you provide a reason or "cause" for cancellation.
 - WithDeadline: Creates a new context that will automatically cancel at a specific time. It returns the new context and a cancel function.
