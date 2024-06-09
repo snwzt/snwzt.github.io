@@ -20,6 +20,7 @@ I do some programming in Go and I like doing system administration too. Sometime
 <h1>Blogs</h1>
 
 <ul>
+    <li><a href="./go-context.html">Context package in Go</a></li>
     <li><a href="./go-channels.html">Channels in Go</a></li>
     <li><a href="./terminal-fu.html">Linux Tools that Improved my Terminal-Fu</a></li>
     <li><a href="./intro-bash-scripting.html">Introduction to Bash Scripting</a></li>
