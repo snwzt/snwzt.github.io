@@ -1,14 +1,14 @@
-# When to use Pointers in Go
+# Pointers in Go
 
 Let's say you wish to pass a list from one function to another. Now, imagine that `[]string` has 1000 10 byte strings. If you were to copy those values to another function with same datatype, i.e. `[]string`, you will be just creating futile additional memory which can easily be avoided.
 
 If you make the second function ask the first function for the memory address of the string, i.e. `*[]string`, it will just give you a 8 byte address by doing `&[]string`, which you can just dereference to access the previously created by `*(&[]string)`, i.e. `*variable`.
 
-![Image](./assets/images/ptr-in-go_1.png)
+![Image](./assets/images/go-ptr_1.png)
 
 Here, size of the array is 24 bytes.
 
-![Image](./assets/images/ptr-in-go_2.png)
+![Image](./assets/images/go-ptr_2.png)
 
 But, size of the address of the array is 8 bytes.
 

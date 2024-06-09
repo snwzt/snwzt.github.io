@@ -11,6 +11,7 @@ I do some programming in Go and I like doing system administration too. Sometime
 <br><br>
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3VWmqPD3cThdZNR8RSjgMm?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2xRp1L6wfXVcaOfvhJtg4u?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 </div>
 
@@ -19,10 +20,11 @@ I do some programming in Go and I like doing system administration too. Sometime
 <h1>Blogs</h1>
 
 <ul>
+    <li><a href="./go-channels.html">Channels in Go</a></li>
     <li><a href="./terminal-fu.html">Linux Tools that Improved my Terminal-Fu</a></li>
     <li><a href="./intro-bash-scripting.html">Introduction to Bash Scripting</a></li>
     <li><a href="./l4-l7-lb.html">Why can't Classic Load Balancer provide functionality of Application Load Balancer?</a></li>
-    <li><a href="./ptr-go.html">Pointers in Go</a></li>
+    <li><a href="./go-ptr.html">Pointers in Go</a></li>
     <li><a href="./like-food.html">Food I love</a></li>
     <li><a href="./multi-stage-oci.html">Multi-stage OCI builds</a></li>
     <li><a href="./basic-regex.html">Basic Regex</a></li>
