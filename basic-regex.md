@@ -1,6 +1,8 @@
 ---
 image:
-    path: assets/images/blank.png
+    path: assets/images/og_image.png
+    width: 300
+    height: 169
 ---
 
 # Basic Regex with Examples
