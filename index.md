@@ -11,7 +11,6 @@ I do some programming in Go and I like doing system administration too. Sometime
 <br><br>
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3VWmqPD3cThdZNR8RSjgMm?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2xRp1L6wfXVcaOfvhJtg4u?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 </div>
 
@@ -20,6 +19,7 @@ I do some programming in Go and I like doing system administration too. Sometime
 <h1>Blogs</h1>
 
 <ul>
+    <li><a href="./go-sync.html">Sync package in Go</a></li>
     <li><a href="./go-context.html">Context package in Go</a></li>
     <li><a href="./go-channels.html">Channels in Go</a></li>
     <li><a href="./terminal-fu.html">Linux Tools that Improved my Terminal-Fu</a></li>
