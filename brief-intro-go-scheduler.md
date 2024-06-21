@@ -1,3 +1,10 @@
+---
+image:
+    path: assets/images/og_image.png
+    width: 300
+    height: 169
+---
+
 # Brief Introduction to the Go Scheduler
 
 Go's concurrency model, based on goroutines and the scheduler, is a powerful feature that makes writing concurrent programs easier and more efficient.
