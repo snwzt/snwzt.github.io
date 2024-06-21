@@ -58,3 +58,5 @@ ENTRYPOINT ./backend
 In cooler dockerfile, the first stage is used for compiling the source code to a binary file. the second stage is used to run the binary. I'm also installing some other packages which is requirement for the program and removing the package manager's cache because it is not important for binary's execution. Also, I am using Alpine linux image, which is 5 MB compared to Ubuntu's 188 MB. The resulting image size goes from 1.18 GB to just 29.5 MB.
 
 There are lot of other good practices that are written in docker's documentation [here](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/).
+
+Thankyou for reading my blog.

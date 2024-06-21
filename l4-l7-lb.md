@@ -71,4 +71,6 @@ Probably in the realm of Classic Load Balancer, story goes like this:
 2. The Load Balancer at Layer 4 determines the target server.
 3. The packet is reassembled with the target server IP (DNAT) and sent to the destination.
 
-I realized my stupidity and went on with my life with this new **obvious** knowledge in my head, which probably should've been there already. Hope you enjoyed the blog.
+I realized my stupidity and went on with my life with this new **obvious** knowledge in my head, which probably should've been there already.
+
+Thankyou for reading my blog.

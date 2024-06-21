@@ -21,3 +21,5 @@ But, size of the address of the array is 8 bytes.
 For a long time I thought Go was doing pass by reference, I've realised today, it always does pass by value. 
 
 If I pass memory address of a 6 bit data, it will use 8 byte data. So, passing memory address vs passing data is something that programmer will have to decide by considering what kind of data is being expected. 
+
+Thankyou for reading my blog.

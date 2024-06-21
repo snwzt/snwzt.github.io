@@ -160,3 +160,5 @@ You can check out the complete script [here](https://github.com/snwzt/cringe-ahh
 2. There is a difference in POSIX-compliant syntax and bash extensions of it, e.g. while writing an `if` condition, if you use `[ condition ]`, you are using POSIX-compliant syntax. But with bash extensions `[[ condition ]]`, you can do pattern matching `==`, regex `=~`, logical operations `&& ||`, etc.
 3. If you don't want your script to be executed as root, check `$EUID`, i.e., effective user ID. If it is 0, prevent the script from executing further. Running a script as `sudo` from a user who is part of the wheel group sets the user ID to 0, which gives administrator privileges to the user. You can check this by executing `id -u` and then `sudo id -u`.
 4. You can check the exit status of the previously executed program with `$?`.
+
+Thankyou for reading my blog.

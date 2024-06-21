@@ -60,4 +60,4 @@ For example:
 
 For practice and learning regex in a visual way, you can try [Debuggex](https://www.debuggex.com/). That's where I learned regex and got all those cool visualizations of regex patterns!
 
-Thank you for reading my blog. Have a nice day!
+Thank you for reading my blog.

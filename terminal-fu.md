@@ -107,3 +107,5 @@ tar -rvzf archive.tar newfile.txt
 # extracting archive
 tar -xvzf archive.tar
 ```
+
+Thankyou for reading my blog.
