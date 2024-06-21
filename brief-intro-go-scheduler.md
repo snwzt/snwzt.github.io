@@ -66,7 +66,7 @@ Consider a program with several goroutines performing different tasks. Here's ho
 7. If Thread 1's runqueue becomes empty, it will either pull from the global runqueue or steal from another thread's runqueue.
 
 ### Thread Blocking
-If a goroutine calls a blocking system call, we don't want the thread's runqueue to idle and starve the goroutines. So, we have a background mechanism called "handoff" which assigns the blocked thread's runqueue to another thread. Handoff unparks a parked thread or starts a thread if necessary to assign runqueue of blocked thread.
+If a goroutine calls a blocking system call, it is undesirable for the thread's runqueue to idle and starve the goroutines. So, a background mechanism called "handoff" which assigns the blocked thread's runqueue to another thread. Handoff unparks a parked thread or starts a thread if necessary to assign runqueue of blocked thread.
 
 You might wonder, why doesn't blocked thread itself doesn't perform handoff of the runqueue by itself? Handoffs can get expensive, especially when new thread is started. Therefore, immediate handoffs are only performed for specific system calls. If the blocking period is expected to be very short, it can be more efficient to wait rather than initiate a handoff. If both the goroutine and the thread are blocked and a handoff hasn't occurred yet, sysmon comes to the rescue and initiates a handoff.
 
@@ -77,7 +77,7 @@ To optimize the process of parking and unparking threads, threads without work "
 
 ## Preemption
 
-Go's scheduler initially used cooperative preemption, where goroutines voluntarily yield control at certain points. in their execution. But what if there is a program that is CPU-intensive, has no blocking work, and doesn't create goroutines? It will starve the local runqueue. We need a way to make this program yield control to the Go scheduler. For this, the Go scheduler implements non-cooperative preemption, i.e., a background thread called sysmon detects long-running goroutines and unschedules them when possible. It puts those preempted goroutines into the global runqueue (lower priority queue, so contention is not a problem).
+Go's scheduler initially used cooperative preemption, where goroutines voluntarily yield control at certain points in their execution. But what if there is a program that is CPU-intensive, has no blocking work, and doesn't create goroutines? It will starve the local runqueue. For this, the Go scheduler implements non-cooperative preemption, i.e., a background thread called sysmon detects long-running goroutines (let's say > 10ms) and unschedules them when possible. It puts those preempted goroutines into the global runqueue, which is a lower priority queue, so contention is not a problem.
 
 Runqueues in go scheduler primarily use FIFO (First in, First out) queues. It is good for fairness, but bad for locality.
 
@@ -86,6 +86,12 @@ Fairness in scheduling means that each goroutine gets a fair share of CPU time o
 
 ### Locality
 On other hand, Locality in scheduling refers to the tendency of keeping related tasks (here, goroutines) close to each other in the execution order. This can lead to better CPU cache utilization and reduced overhead related to task switching. In LIFO (Last in, First out) queue, locality implies that recently added goroutines are prioritized for execution. This can be advantageous in scenarios where tasks are dependent on each other or where the most recently added tasks are more likely to benefit from cache locality, improving overall execution efficiency. Hence, LIFO queues implement locality better, but they are bad in fairness as newer tasks are prioritized, potentially delaying older tasks indefinitely if new tasks keep arriving. 
+
+### Time Slice Inheritance
+To enhance locality, goroutine may be prioritized by moving it to the front of the queue. But this approach risks creating a scenario where two goroutines continuously promote each other, potentially starving others in the queue. To avoid this, the concept of time slice inheritance allows a scheduled goroutine to inherit the remaining time of the preempted goroutine that spanwed it. This way, both goroutines get, let's say 10ms in total, after which one of them will be preempted and put to the global runqueue.
+
+### SchedTick
+Global runqueue might end up starving if all threads are busy executing local runqueues and none of them ever get to global runqueue. To avoid this, Go scheduler polls the global runqueue occasionally. SchedTick is a counter which is incremented everytime a runnable goroutine is found and whenever the schedtick is multiple of 61, the Go scheduler polls the global runqueue.
 
 In this blog, I tried my best to explain some concepts that is used in Go scheduler.
 
