@@ -18,8 +18,6 @@ WaitGroup is used to wait for a collection of goroutines to finish. It tracks th
 **Wait():** Blocks until the counter becomes zero.
 
 ```go
-func 
-
 func main() {
 	var wg sync.WaitGroup
 
