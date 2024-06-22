@@ -1,6 +1,17 @@
-# theme: jekyll-theme-hacker
-remote_theme: no-style-please
-
 title: snwzt blogs
+remote_theme: no-style-please
+baseurl: ""
+github_username: snwzt
+favicon: "favicon.svg"
 
-show_downloads: false
+theme_config:
+  appearance: "light"
+  back_home_text: "home"
+  show_description: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+include:
+  - _pages
