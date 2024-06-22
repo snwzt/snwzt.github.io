@@ -1,9 +1,9 @@
 I do some programming in Go and I like doing system administration too. Sometimes I get sad and binge eat my <a href="./like-food.html">favorite food</a>. Also, I <a href="./sketches.html">sketch</a>, usually panels from my favorite comics.
 
 <a href="mailto:mprasadme@gmail.com" style="background-color: #D44638; border: none; color: white; padding: 4px 4px; text-align: center; text-decoration: none; display: inline-block; font-size: 1rem; margin: 2px 1px; cursor: pointer; border-radius: 4px;">Gmail</a>
-<a href="https://github.com/snwzt" style="background-color: #333; border: none; color: white; padding: 4px 4px; text-align: center; text-decoration: none; display: inline-block; font-size: 1rem; margin: 2px 1px; cursor: pointer; border-radius: 4px;">GitHub</a>
+<a href="https://github.com/snwzt" style="background-color: #111; border: none; color: white; padding: 4px 4px; text-align: center; text-decoration: none; display: inline-block; font-size: 1rem; margin: 2px 1px; cursor: pointer; border-radius: 4px;">GitHub</a>
 <a href="https://www.linkedin.com/in/mdehury" style="background-color: #0077B5; border: none; color: white; padding: 4px 4px; text-align: center; text-decoration: none; display: inline-block; font-size: 1rem; margin: 2px 1px; cursor: pointer; border-radius: 4px;">LinkedIn</a>
-<a href="https://twitter.com/sloflayer" style="background-color: #000000; border: none; color: white; padding: 4px 4px; text-align: center; text-decoration: none; display: inline-block; font-size: 1rem; margin: 2px 1px; cursor: pointer; border-radius: 4px;">X/Twitter</a>
+<a href="https://twitter.com/sloflayer" style="background-color: #111; border: none; color: white; padding: 4px 4px; text-align: center; text-decoration: none; display: inline-block; font-size: 1rem; margin: 2px 1px; cursor: pointer; border-radius: 4px;">X/Twitter</a>
 
 <ul>
     <li><a href="./brief-intro-go-scheduler.html">Brief Introduction to the Go Scheduler</a></li>
