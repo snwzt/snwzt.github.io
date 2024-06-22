@@ -1,6 +1,3 @@
-<div class="index-container">
-
-<div class="index-sidebar">
 I do some programming in Go and I like doing system administration too. Sometimes I get sad and binge eat my <a href="./like-food.html">favorite food</a>. Also, I <a href="./sketches.html">sketch</a>, usually panels from my favorite comics.<br><br>
 
 <a href="mailto:mprasadme@gmail.com">Gmail</a>
@@ -10,11 +7,6 @@ I do some programming in Go and I like doing system administration too. Sometime
 
 <br><br>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3VWmqPD3cThdZNR8RSjgMm?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
-</div>
-
-<div class="index-main-content">
 <ul>
     <li><a href="./brief-intro-go-scheduler.html">Brief Introduction to the Go Scheduler</a></li>
     <li><a href="./go-sync-package.html">Sync package in Go</a></li>
@@ -29,38 +21,3 @@ I do some programming in Go and I like doing system administration too. Sometime
     <li><a href="./basic-regex.html">Basic Regex</a></li>
     <li><a href="./osi-model-oversimplified.html">OSI Model Oversimplified</a></li>
 </ul>
-
-</div>
-
-</div>
-
-<style>
-.index-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.index-sidebar {
-    flex: 1;
-}
-
-.index-main-content {
-    margin-top: 1rem;
-    flex: 1;
-}
-
-@media only screen and (min-width: 768px) {
-    .index-container {
-        flex-direction: row;
-    }
-
-    .index-sidebar {
-        margin-right: 1rem;
-    }
-
-    .index-main-content {
-        margin-top: unset;
-    }
-}
-
-</style>
