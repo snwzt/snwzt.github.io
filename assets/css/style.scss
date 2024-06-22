@@ -1,42 +1,26 @@
---- 
---- 
+---
+---
 
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+footer {
+  display: none !important;
+}
+
+.btn {
+  display: none !important;
+}
+
 body {
-    font-family: "Lato", sans-serif;
-    margin-bottom: 5rem;
-    background-color: #ffffff;
-    color: #31353b;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 5rem;
 }
 
 header h1 {
-    font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Lato", sans-serif;
-}
-
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #31353b;
-        color: #d3d9e1;
-    }
-
-    a {
-        color: #39a1d9;
-    }
-
-    pre {
-        // background-color: #f6f8fa;
-        background-color: #d3d9e1;
-        color: #31353b;
-    }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
 }
