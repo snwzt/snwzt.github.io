@@ -15,9 +15,6 @@ I do some programming in Go and I like doing system administration too. Sometime
 </div>
 
 <div class="index-main-content">
-
-<h1>Blogs</h1>
-
 <ul>
     <li><a href="./brief-intro-go-scheduler.html">Brief Introduction to the Go Scheduler</a></li>
     <li><a href="./go-sync-package.html">Sync package in Go</a></li>
