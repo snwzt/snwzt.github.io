@@ -12,9 +12,16 @@ footer {
   display: none !important;
 }
 
+header {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
 body {
   font-family: "Lato", sans-serif;
-  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 header h1 {
