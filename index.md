@@ -6,6 +6,7 @@ I do some programming in Go and I like doing system administration too. Sometime
 <a href="https://twitter.com/sloflayer" style="background-color: #333; border: none; color: white; padding: 2px 4px; text-align: center; text-decoration: none; display: inline-block; font-size: 1rem; margin: 2px 1px; cursor: pointer; border-radius: 4px;">X/Twitter</a>
 
 <ul>
+    <li><a href="./speedrunning-mongodb.html">Speedrunning MongoDB</a></li>
     <li><a href="./brief-intro-go-scheduler.html">Brief Introduction to the Go Scheduler</a></li>
     <li><a href="./go-sync-package.html">Sync package in Go</a></li>
     <li><a href="./go-context-package.html">Context package in Go</a></li>
