@@ -7,7 +7,7 @@ image:
 
 # Speedrunning MongoDB
 
-Maybe you're someone who wants to keep basic stuff of MongoDB in your head. Maybe you have someone who asks MongoDB queries for trivia night? Hey, I don't judge! In this blog, we are speedrunning MongoDB. Hopefully, this is what you need!
+Maybe you're someone who likes keeping basics of MongoDB in your head. Maybe you have someone who asks MongoDB queries for trivia night? Hey, I don't judge! In this blog, we are speedrunning MongoDB. Hopefully, this is what you need!
 
 ## Create, Read, Update, Delete
 
