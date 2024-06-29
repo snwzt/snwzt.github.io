@@ -231,21 +231,21 @@ Tokenizers break text into smaller tokens for indexing and searching. They are u
 
 ### edgeNGram
 Tokenizes text at the edges.
-```json
+```js
 "text": "hello"
 // Tokens: ["h", "he", "hel", "hell", "hello"]
 ```
 
 ### nGram
 Tokenizes text into n-grams.
-```json
+```js
 "text": "hello"
 // Tokens: ["h", "he", "hel", "ell", "llo", "o"]
 ```
 
 ### regexCaptureGroup
 Tokenizes text based on regex capture groups.
-```json
+```js
 "text": "abc123"
 // Regex: (\w+)
 // Tokens: ["abc", "123"]
@@ -253,21 +253,21 @@ Tokenizes text based on regex capture groups.
 
 ### standard
 The default tokenizer, splits on whitespace and punctuation.
-```json
+```js
 "text": "Hello, world!"
 // Tokens: ["Hello", "world"]
 ```
 
 ### uaxUrlEmail
 Tokenizes URLs and email addresses.
-```json
+```js
 "text": "email@example.com"
 // Tokens: ["email@example.com"]
 ```
 
 ### whitespace
 Splits text only on whitespace.
-```json
+```js
 "text": "hello world"
 // Tokens: ["hello", "world"]
 ```
