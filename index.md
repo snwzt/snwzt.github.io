@@ -1,4 +1,4 @@
-I do some programming in Go and I like doing system administration too. Sometimes I get sad and binge eat my <a href="./like-food.html">favorite food</a>. Also, I <a href="./sketches.html">sketch</a>, usually panels from my favorite comics.
+Hi, I am a developer, passionate about building backend applications with Golang and DevOps/cloud. I like to binge eat my <a href="./like-food.html">favorite food</a>. I like to <a href="./sketches.html">sketch</a> too, usually panels from my favorite comics.
 
 <a href="mailto:mprasadme@gmail.com" style="background-color: #D44638; border: none; color: white; padding: 2px 4px; text-align: center; text-decoration: none; display: inline-block; font-size: 1rem; margin: 2px 1px; cursor: pointer; border-radius: 4px;">Gmail</a>
 <a href="https://github.com/snwzt" style="background-color: #333; border: none; color: white; padding: 2px 4px; text-align: center; text-decoration: none; display: inline-block; font-size: 1rem; margin: 2px 1px; cursor: pointer; border-radius: 4px;">GitHub</a>

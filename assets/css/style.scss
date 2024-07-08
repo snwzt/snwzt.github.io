@@ -20,6 +20,14 @@ footer {
   display: none !important;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .btn {
   display: none !important;
 }
