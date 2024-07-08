@@ -11,16 +11,16 @@ header {
     background: unset;
 }
 
+header h1 {
+    margin: 0;
+}
+
 footer {
   display: none !important;
 }
 
 .btn {
   display: none !important;
-}
-
-.container {
-    width: 100%;
 }
 
 body {
