@@ -28,14 +28,10 @@ a:hover {
     text-decoration: underline;
 }
 
-.btn {
-  display: none !important;
-}
-
 body {
   font-family: "Manrope", sans-serif;
   font-size: 1.125em;
-  margin-bottom: 5rem;
+  margin-bottom: 5em;
 }
 
 header h1 {
@@ -44,6 +40,14 @@ header h1 {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Manrope", sans-serif;
+}
+
+code {
+    font-size: 1.25em;
+}
+
+.btn {
+  display: none !important;
 }
 
 #a-title h1 {
