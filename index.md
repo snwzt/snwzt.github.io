@@ -1,9 +1,9 @@
 Hi, I am a developer, passionate about building backend applications with Golang and DevOps/cloud. I like to binge eat my <a href="./like-food.html">favorite food</a>. I like to <a href="./sketches.html">sketch</a> too, usually panels from my favorite comics.
 
-<a href="mailto:mprasadme@gmail.com" style="background-color: #D44638; border: none; color: white; padding: 2px 4px; text-align: center; text-decoration: none; display: inline-block; font-size: 1rem; margin: 2px 1px; cursor: pointer; border-radius: 4px;">Gmail</a>
-<a href="https://github.com/snwzt" style="background-color: #333; border: none; color: white; padding: 2px 4px; text-align: center; text-decoration: none; display: inline-block; font-size: 1rem; margin: 2px 1px; cursor: pointer; border-radius: 4px;">GitHub</a>
-<a href="https://www.linkedin.com/in/mdehury" style="background-color: #0077B5; border: none; color: white; padding: 2px 4px; text-align: center; text-decoration: none; display: inline-block; font-size: 1rem; margin: 2px 1px; cursor: pointer; border-radius: 4px;">LinkedIn</a>
-<a href="https://twitter.com/sloflayer" style="background-color: #333; border: none; color: white; padding: 2px 4px; text-align: center; text-decoration: none; display: inline-block; font-size: 1rem; margin: 2px 1px; cursor: pointer; border-radius: 4px;">X/Twitter</a>
+<a href="mailto:mprasadme@gmail.com"><img src="https://img.shields.io/badge/gmail-D44638.svg?&style=for-the-badge&logoColor=white"></a>
+<a href="https://github.com/snwzt"><img src="https://img.shields.io/badge/github-333333.svg?&style=for-the-badge&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/mdehury"><img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logoColor=white"></a>
+<a href="https://twitter.com/sloflayer"><img src="https://img.shields.io/badge/twitter-333333.svg?&style=for-the-badge&logoColor=white"></a>
 
 <ul>
     <li><a href="./speedrunning-mongodb.html">Speedrunning MongoDB</a></li>
